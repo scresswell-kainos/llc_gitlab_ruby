@@ -1,0 +1,256 @@
+label,project,open,closed
+1 Private Beta,audit-stub-api,0,0
+1 Private Beta,mapproxy-api,0,0
+1 Private Beta,search-local-land-charge-openresty-docker,0,0
+1 Private Beta,missing-message-processor,0,0
+1 Private Beta,java-storage-api,0,0
+1 Private Beta,performance-tests,0,0
+1 Private Beta,jwt-validation,0,0
+1 Private Beta,land-register-proxy-api,0,0
+1 Private Beta,jmeter-tests,0,0
+1 Private Beta,search-local-land-charge-ui,0,0
+1 Private Beta,local-land-charges-api-stub,0,0
+1 Private Beta,local-land-charges-api,0,0
+1 Private Beta,watchdog,0,0
+1 Private Beta,bulk-export,0,0
+1 Private Beta,pdf-generation-api-jar,0,0
+1 Private Beta,pdf-generation-api,0,0
+1 Private Beta,llc1-document-api,0,1
+1 Private Beta,storage-api,0,0
+1 Private Beta,openresty-static-content,0,2
+1 Private Beta,notification-api,0,1
+1 Private Beta,local-authority-api,0,1
+1 Private Beta,geoserver,0,0
+1 Private Beta,report-sender,0,0
+1 Private Beta,report-api,0,0
+1 Private Beta,report-feeder,0,0
+1 Private Beta,qa-feeder,0,0
+1 Private Beta,qa-schema,0,1
+1 Private Beta,memcached-docker,0,0
+1 Private Beta,bulk-load,0,2
+1 Private Beta,validation-api,0,3
+1 Private Beta,mailhog-docker,0,0
+1 Private Beta,preview-load,0,0
+1 Private Beta,env-conf-teamreggae,0,0
+1 Private Beta,JenkinsDSL,0,0
+1 Private Beta,account-management-frontend,2,6
+1 Private Beta,mint-api,0,1
+1 Private Beta,register,0,1
+1 Private Beta,env-config,0,0
+1 Private Beta,login-frontend,0,2
+1 Private Beta,openresty-docker,0,1
+1 Private Beta,acceptance-tests,0,6
+1 Private Beta,maintain-frontend,2,33
+1 Private Beta,opendj-docker,0,1
+1 Private Beta,authorisation-api,0,0
+1 Private Beta,account-api,0,1
+1 Private Beta,authentication-api,0,0
+1 Private Beta,llc-session-api,0,1
+1 Private Beta,maintain-feeder,0,1
+1 Private Beta,search-api,0,3
+1 Private Beta,maintain-api,0,2
+1 Private Beta,dev-env-config,0,0
+2 Public Beta,audit-stub-api,0,0
+2 Public Beta,mapproxy-api,0,0
+2 Public Beta,search-local-land-charge-openresty-docker,0,0
+2 Public Beta,missing-message-processor,0,0
+2 Public Beta,java-storage-api,0,0
+2 Public Beta,performance-tests,0,0
+2 Public Beta,jwt-validation,0,0
+2 Public Beta,land-register-proxy-api,0,0
+2 Public Beta,jmeter-tests,0,0
+2 Public Beta,search-local-land-charge-ui,0,0
+2 Public Beta,local-land-charges-api-stub,0,0
+2 Public Beta,local-land-charges-api,0,0
+2 Public Beta,watchdog,0,0
+2 Public Beta,bulk-export,0,0
+2 Public Beta,pdf-generation-api-jar,0,0
+2 Public Beta,pdf-generation-api,1,1
+2 Public Beta,llc1-document-api,2,0
+2 Public Beta,storage-api,0,0
+2 Public Beta,openresty-static-content,0,0
+2 Public Beta,notification-api,1,0
+2 Public Beta,local-authority-api,0,0
+2 Public Beta,geoserver,0,0
+2 Public Beta,report-sender,0,0
+2 Public Beta,report-api,0,0
+2 Public Beta,report-feeder,0,0
+2 Public Beta,qa-feeder,1,0
+2 Public Beta,qa-schema,0,0
+2 Public Beta,memcached-docker,0,0
+2 Public Beta,bulk-load,0,0
+2 Public Beta,validation-api,0,0
+2 Public Beta,mailhog-docker,0,0
+2 Public Beta,preview-load,0,0
+2 Public Beta,env-conf-teamreggae,0,0
+2 Public Beta,JenkinsDSL,0,0
+2 Public Beta,account-management-frontend,2,22
+2 Public Beta,mint-api,0,0
+2 Public Beta,register,0,0
+2 Public Beta,env-config,0,0
+2 Public Beta,login-frontend,2,5
+2 Public Beta,openresty-docker,0,0
+2 Public Beta,acceptance-tests,0,8
+2 Public Beta,maintain-frontend,20,37
+2 Public Beta,opendj-docker,0,0
+2 Public Beta,authorisation-api,0,0
+2 Public Beta,account-api,1,1
+2 Public Beta,authentication-api,1,0
+2 Public Beta,llc-session-api,1,0
+2 Public Beta,maintain-feeder,1,0
+2 Public Beta,search-api,0,2
+2 Public Beta,maintain-api,0,1
+2 Public Beta,dev-env-config,0,0
+3 Low,audit-stub-api,0,0
+3 Low,mapproxy-api,0,0
+3 Low,search-local-land-charge-openresty-docker,0,0
+3 Low,missing-message-processor,0,0
+3 Low,java-storage-api,0,0
+3 Low,performance-tests,0,0
+3 Low,jwt-validation,0,0
+3 Low,land-register-proxy-api,0,0
+3 Low,jmeter-tests,0,0
+3 Low,search-local-land-charge-ui,0,0
+3 Low,local-land-charges-api-stub,0,0
+3 Low,local-land-charges-api,0,0
+3 Low,watchdog,0,0
+3 Low,bulk-export,0,0
+3 Low,pdf-generation-api-jar,0,0
+3 Low,pdf-generation-api,1,1
+3 Low,llc1-document-api,0,0
+3 Low,storage-api,0,0
+3 Low,openresty-static-content,0,0
+3 Low,notification-api,0,1
+3 Low,local-authority-api,0,1
+3 Low,geoserver,0,1
+3 Low,report-sender,0,0
+3 Low,report-api,0,0
+3 Low,report-feeder,0,0
+3 Low,qa-feeder,0,0
+3 Low,qa-schema,0,0
+3 Low,memcached-docker,0,0
+3 Low,bulk-load,0,0
+3 Low,validation-api,0,0
+3 Low,mailhog-docker,0,0
+3 Low,preview-load,0,0
+3 Low,env-conf-teamreggae,0,0
+3 Low,JenkinsDSL,0,0
+3 Low,account-management-frontend,3,7
+3 Low,mint-api,0,0
+3 Low,register,1,1
+3 Low,env-config,0,0
+3 Low,login-frontend,2,1
+3 Low,openresty-docker,0,1
+3 Low,acceptance-tests,3,9
+3 Low,maintain-frontend,11,22
+3 Low,opendj-docker,0,0
+3 Low,authorisation-api,0,0
+3 Low,account-api,1,2
+3 Low,authentication-api,0,0
+3 Low,llc-session-api,0,0
+3 Low,maintain-feeder,0,0
+3 Low,search-api,3,0
+3 Low,maintain-api,3,0
+3 Low,dev-env-config,1,0
+4 Awaiting priority,audit-stub-api,0,0
+4 Awaiting priority,mapproxy-api,0,0
+4 Awaiting priority,search-local-land-charge-openresty-docker,0,0
+4 Awaiting priority,missing-message-processor,0,0
+4 Awaiting priority,java-storage-api,0,0
+4 Awaiting priority,performance-tests,0,0
+4 Awaiting priority,jwt-validation,0,0
+4 Awaiting priority,land-register-proxy-api,0,0
+4 Awaiting priority,jmeter-tests,0,0
+4 Awaiting priority,search-local-land-charge-ui,1,0
+4 Awaiting priority,local-land-charges-api-stub,0,0
+4 Awaiting priority,local-land-charges-api,1,0
+4 Awaiting priority,watchdog,0,0
+4 Awaiting priority,bulk-export,0,0
+4 Awaiting priority,pdf-generation-api-jar,0,0
+4 Awaiting priority,pdf-generation-api,0,1
+4 Awaiting priority,llc1-document-api,0,0
+4 Awaiting priority,storage-api,0,0
+4 Awaiting priority,openresty-static-content,0,0
+4 Awaiting priority,notification-api,0,0
+4 Awaiting priority,local-authority-api,0,0
+4 Awaiting priority,geoserver,0,0
+4 Awaiting priority,report-sender,0,0
+4 Awaiting priority,report-api,0,0
+4 Awaiting priority,report-feeder,0,0
+4 Awaiting priority,qa-feeder,0,0
+4 Awaiting priority,qa-schema,0,0
+4 Awaiting priority,memcached-docker,0,0
+4 Awaiting priority,bulk-load,0,0
+4 Awaiting priority,validation-api,0,0
+4 Awaiting priority,mailhog-docker,0,0
+4 Awaiting priority,preview-load,0,0
+4 Awaiting priority,env-conf-teamreggae,0,0
+4 Awaiting priority,JenkinsDSL,0,0
+4 Awaiting priority,account-management-frontend,0,5
+4 Awaiting priority,mint-api,0,0
+4 Awaiting priority,register,0,0
+4 Awaiting priority,env-config,0,0
+4 Awaiting priority,login-frontend,0,1
+4 Awaiting priority,openresty-docker,0,0
+4 Awaiting priority,acceptance-tests,0,0
+4 Awaiting priority,maintain-frontend,7,4
+4 Awaiting priority,opendj-docker,0,0
+4 Awaiting priority,authorisation-api,0,0
+4 Awaiting priority,account-api,0,0
+4 Awaiting priority,authentication-api,0,0
+4 Awaiting priority,llc-session-api,0,0
+4 Awaiting priority,maintain-feeder,0,0
+4 Awaiting priority,search-api,0,0
+4 Awaiting priority,maintain-api,0,0
+4 Awaiting priority,dev-env-config,0,0
+No Label,audit-stub-api,0,0
+No Label,mapproxy-api,0,0
+No Label,search-local-land-charge-openresty-docker,0,0
+No Label,missing-message-processor,0,0
+No Label,java-storage-api,0,0
+No Label,performance-tests,0,0
+No Label,jwt-validation,0,0
+No Label,land-register-proxy-api,0,0
+No Label,jmeter-tests,0,0
+No Label,search-local-land-charge-ui,0,1
+No Label,local-land-charges-api-stub,0,0
+No Label,local-land-charges-api,0,0
+No Label,watchdog,0,0
+No Label,bulk-export,0,0
+No Label,pdf-generation-api-jar,0,0
+No Label,pdf-generation-api,0,0
+No Label,llc1-document-api,0,0
+No Label,storage-api,0,0
+No Label,openresty-static-content,0,0
+No Label,notification-api,0,0
+No Label,local-authority-api,0,0
+No Label,geoserver,0,0
+No Label,report-sender,0,0
+No Label,report-api,0,0
+No Label,report-feeder,0,1
+No Label,qa-feeder,0,0
+No Label,qa-schema,0,0
+No Label,memcached-docker,0,0
+No Label,bulk-load,0,0
+No Label,validation-api,0,1
+No Label,mailhog-docker,0,0
+No Label,preview-load,0,0
+No Label,env-conf-teamreggae,0,0
+No Label,JenkinsDSL,0,0
+No Label,account-management-frontend,0,9
+No Label,mint-api,0,0
+No Label,register,0,1
+No Label,env-config,0,0
+No Label,login-frontend,0,2
+No Label,openresty-docker,0,0
+No Label,acceptance-tests,0,18
+No Label,maintain-frontend,0,39
+No Label,opendj-docker,0,0
+No Label,authorisation-api,0,0
+No Label,account-api,0,3
+No Label,authentication-api,0,0
+No Label,llc-session-api,0,0
+No Label,maintain-feeder,0,1
+No Label,search-api,0,7
+No Label,maintain-api,0,0
+No Label,dev-env-config,0,1
