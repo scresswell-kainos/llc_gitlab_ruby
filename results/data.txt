@@ -1,0 +1,365 @@
+id,project,label,state,created_at,closed_on
+702,account-management-frontend,1 Private Beta,opened,2017-12-14,
+698,maintain-frontend,1 Private Beta,opened,2017-12-06,
+664,maintain-frontend,1 Private Beta,closed,2017-11-28,2017-12-20
+662,maintain-frontend,1 Private Beta,closed,2017-11-24,2017-12-01
+657,maintain-frontend,1 Private Beta,closed,2017-11-17,2017-11-20
+650,maintain-frontend,1 Private Beta,closed,2017-11-14,2018-01-05
+648,llc1-document-api,1 Private Beta,closed,2017-11-13,2017-11-27
+643,bulk-load,1 Private Beta,closed,2017-11-07,2017-12-06
+639,account-management-frontend,1 Private Beta,closed,2017-11-06,2017-11-29
+694,login-frontend,1 Private Beta,closed,2017-11-06,2017-11-30
+637,maintain-frontend,1 Private Beta,closed,2017-11-06,2017-11-15
+621,maintain-frontend,1 Private Beta,closed,2017-10-25,2017-11-20
+618,maintain-frontend,1 Private Beta,closed,2017-10-24,2017-11-21
+586,openresty-docker,1 Private Beta,closed,2017-09-29,2017-10-12
+584,maintain-frontend,1 Private Beta,closed,2017-09-29,2017-10-03
+583,maintain-frontend,1 Private Beta,closed,2017-09-29,2017-11-08
+582,maintain-frontend,1 Private Beta,closed,2017-09-28,2017-10-05
+594,account-management-frontend,1 Private Beta,closed,2017-09-28,2017-11-17
+578,maintain-frontend,1 Private Beta,closed,2017-09-26,2017-10-11
+576,maintain-frontend,1 Private Beta,closed,2017-09-26,2017-09-29
+574,maintain-frontend,1 Private Beta,closed,2017-09-25,2017-11-02
+573,maintain-frontend,1 Private Beta,closed,2017-09-25,2017-11-08
+570,maintain-frontend,1 Private Beta,closed,2017-09-25,2017-11-08
+562,maintain-frontend,1 Private Beta,closed,2017-09-20,2017-10-24
+561,maintain-frontend,1 Private Beta,closed,2017-09-20,2017-10-18
+552,notification-api,1 Private Beta,closed,2017-09-12,2017-10-30
+540,maintain-frontend,1 Private Beta,closed,2017-09-06,2017-11-30
+537,openresty-static-content,1 Private Beta,closed,2017-08-30,2017-09-07
+523,maintain-frontend,1 Private Beta,closed,2017-08-30,2017-09-08
+520,account-management-frontend,1 Private Beta,opened,2017-08-29,
+518,openresty-static-content,1 Private Beta,closed,2017-08-28,2017-11-07
+511,search-api,1 Private Beta,closed,2017-08-25,2017-09-29
+510,mint-api,1 Private Beta,closed,2017-08-25,2017-09-27
+509,llc-session-api,1 Private Beta,closed,2017-08-25,2017-09-29
+499,maintain-frontend,1 Private Beta,closed,2017-08-16,2017-11-07
+495,maintain-api,1 Private Beta,closed,2017-08-16,2017-11-07
+494,maintain-frontend,1 Private Beta,closed,2017-08-15,2017-11-07
+487,acceptance-tests,1 Private Beta,closed,2017-08-14,2017-08-25
+486,search-api,1 Private Beta,closed,2017-08-14,2017-09-19
+476,register,1 Private Beta,closed,2017-08-11,2017-09-21
+463,validation-api,1 Private Beta,closed,2017-08-07,2017-12-06
+459,search-api,1 Private Beta,closed,2017-08-03,2017-08-24
+458,qa-schema,1 Private Beta,closed,2017-08-03,2017-08-25
+457,local-authority-api,1 Private Beta,closed,2017-08-03,2017-08-25
+455,maintain-frontend,1 Private Beta,closed,2017-07-31,2017-11-07
+453,maintain-frontend,1 Private Beta,closed,2017-07-31,2017-08-09
+436,account-management-frontend,1 Private Beta,closed,2017-07-20,2017-08-14
+431,maintain-frontend,1 Private Beta,closed,2017-07-18,2017-10-05
+418,maintain-feeder,1 Private Beta,closed,2017-07-11,2017-08-22
+402,account-api,1 Private Beta,closed,2017-06-29,2017-08-14
+400,account-management-frontend,1 Private Beta,closed,2017-06-29,2017-11-17
+393,maintain-frontend,1 Private Beta,closed,2017-06-26,2017-11-07
+386,acceptance-tests,1 Private Beta,closed,2017-06-21,2017-06-23
+375,bulk-load,1 Private Beta,closed,2017-06-13,2017-08-08
+374,account-management-frontend,1 Private Beta,closed,2017-06-13,2017-06-30
+373,maintain-frontend,1 Private Beta,closed,2017-06-13,2017-08-07
+360,maintain-frontend,1 Private Beta,closed,2017-06-07,2017-07-04
+338,opendj-docker,1 Private Beta,closed,2017-05-19,2017-11-10
+321,maintain-frontend,1 Private Beta,closed,2017-05-15,2017-10-31
+276,validation-api,1 Private Beta,closed,2017-05-08,2017-08-08
+274,acceptance-tests,1 Private Beta,closed,2017-05-08,2017-06-01
+257,maintain-frontend,1 Private Beta,closed,2017-04-28,2017-08-14
+233,maintain-frontend,1 Private Beta,closed,2017-04-18,2017-04-24
+229,maintain-frontend,1 Private Beta,closed,2017-04-18,2017-04-24
+222,maintain-frontend,1 Private Beta,closed,2017-04-12,2017-08-07
+221,maintain-frontend,1 Private Beta,closed,2017-04-12,2017-04-24
+200,maintain-frontend,1 Private Beta,closed,2017-04-05,2017-04-21
+197,maintain-api,1 Private Beta,closed,2017-04-03,2017-08-08
+195,login-frontend,1 Private Beta,closed,2017-03-30,2017-04-25
+193,acceptance-tests,1 Private Beta,closed,2017-03-29,2017-03-31
+170,acceptance-tests,1 Private Beta,closed,2017-03-21,2017-08-08
+166,account-management-frontend,1 Private Beta,closed,2017-03-17,2017-08-08
+161,validation-api,1 Private Beta,closed,2017-03-16,2017-08-08
+155,acceptance-tests,1 Private Beta,closed,2017-03-14,2017-05-23
+709,maintain-frontend,2 Public Beta,closed,2017-12-15,2017-12-20
+708,maintain-frontend,2 Public Beta,closed,2017-12-15,2017-12-20
+707,account-management-frontend,2 Public Beta,closed,2017-12-15,2017-12-20
+706,login-frontend,2 Public Beta,closed,2017-12-15,2017-12-20
+703,login-frontend,2 Public Beta,opened,2017-12-15,
+701,maintain-frontend,2 Public Beta,opened,2017-12-12,
+697,maintain-frontend,2 Public Beta,opened,2017-12-01,
+666,maintain-frontend,2 Public Beta,opened,2017-11-29,
+665,maintain-frontend,2 Public Beta,opened,2017-11-29,
+660,maintain-frontend,2 Public Beta,opened,2017-11-20,
+658,maintain-frontend,2 Public Beta,opened,2017-11-17,
+654,login-frontend,2 Public Beta,closed,2017-11-15,2017-12-19
+644,qa-feeder,2 Public Beta,opened,2017-11-07,
+642,maintain-feeder,2 Public Beta,opened,2017-11-07,
+641,maintain-frontend,2 Public Beta,closed,2017-11-07,2017-11-14
+640,login-frontend,2 Public Beta,closed,2017-11-06,2017-11-22
+638,maintain-frontend,2 Public Beta,opened,2017-11-06,
+636,authentication-api,2 Public Beta,opened,2017-11-06,
+635,account-api,2 Public Beta,opened,2017-11-06,
+631,maintain-frontend,2 Public Beta,opened,2017-11-02,
+630,maintain-frontend,2 Public Beta,opened,2017-11-02,
+629,maintain-frontend,2 Public Beta,opened,2017-11-02,
+625,maintain-frontend,2 Public Beta,opened,2017-10-26,
+617,maintain-frontend,2 Public Beta,opened,2017-10-24,
+615,maintain-frontend,2 Public Beta,opened,2017-10-20,
+614,maintain-frontend,2 Public Beta,opened,2017-10-20,
+595,pdf-generation-api,2 Public Beta,closed,2017-10-06,2017-12-19
+591,account-management-frontend,2 Public Beta,closed,2017-10-04,2017-11-27
+590,account-management-frontend,2 Public Beta,closed,2017-10-04,2017-11-27
+589,account-management-frontend,2 Public Beta,closed,2017-10-04,2017-11-27
+588,account-management-frontend,2 Public Beta,closed,2017-10-04,2017-11-27
+587,account-management-frontend,2 Public Beta,closed,2017-10-04,2017-11-27
+585,maintain-frontend,2 Public Beta,opened,2017-09-29,
+580,account-management-frontend,2 Public Beta,closed,2017-09-27,2017-11-20
+572,maintain-frontend,2 Public Beta,closed,2017-09-25,2017-11-20
+557,llc1-document-api,2 Public Beta,opened,2017-09-19,
+543,maintain-frontend,2 Public Beta,closed,2017-09-07,2017-11-20
+528,account-management-frontend,2 Public Beta,closed,2017-09-01,2017-11-30
+526,maintain-frontend,2 Public Beta,closed,2017-09-01,2017-09-08
+569,account-management-frontend,2 Public Beta,closed,2017-08-28,2017-11-20
+516,maintain-frontend,2 Public Beta,opened,2017-08-28,
+491,maintain-frontend,2 Public Beta,opened,2017-08-15,
+474,llc1-document-api,2 Public Beta,opened,2017-08-10,
+471,notification-api,2 Public Beta,opened,2017-08-10,
+466,account-management-frontend,2 Public Beta,closed,2017-08-08,2017-10-16
+465,login-frontend,2 Public Beta,closed,2017-08-08,2017-10-16
+448,maintain-frontend,2 Public Beta,closed,2017-07-26,2017-09-22
+445,maintain-frontend,2 Public Beta,opened,2017-07-25,
+444,account-management-frontend,2 Public Beta,opened,2017-07-25,
+651,account-management-frontend,2 Public Beta,opened,2017-07-24,
+434,maintain-frontend,2 Public Beta,opened,2017-07-19,
+406,account-management-frontend,2 Public Beta,closed,2017-07-04,2017-09-25
+397,search-api,2 Public Beta,closed,2017-06-28,2017-08-09
+392,maintain-frontend,2 Public Beta,closed,2017-06-26,2017-08-09
+388,pdf-generation-api,2 Public Beta,opened,2017-06-22,
+385,maintain-frontend,2 Public Beta,closed,2017-06-21,2017-12-19
+364,maintain-frontend,2 Public Beta,closed,2017-06-12,2017-07-13
+363,maintain-frontend,2 Public Beta,closed,2017-06-12,2017-07-04
+354,maintain-frontend,2 Public Beta,closed,2017-06-01,2017-06-01
+341,maintain-api,2 Public Beta,closed,2017-05-22,2017-06-27
+336,account-api,2 Public Beta,closed,2017-05-19,2017-11-06
+334,acceptance-tests,2 Public Beta,closed,2017-05-17,2017-06-22
+319,account-management-frontend,2 Public Beta,closed,2017-05-12,2017-07-28
+313,maintain-frontend,2 Public Beta,closed,2017-05-11,2017-08-08
+312,acceptance-tests,2 Public Beta,closed,2017-05-11,2017-05-11
+283,account-management-frontend,2 Public Beta,closed,2017-05-08,2017-05-10
+265,account-management-frontend,2 Public Beta,closed,2017-05-04,2017-05-15
+264,maintain-frontend,2 Public Beta,closed,2017-05-04,2017-08-07
+261,account-management-frontend,2 Public Beta,closed,2017-05-01,2017-06-05
+258,acceptance-tests,2 Public Beta,closed,2017-04-28,2017-09-29
+254,account-management-frontend,2 Public Beta,closed,2017-04-27,2017-05-01
+253,llc-session-api,2 Public Beta,opened,2017-04-27,
+248,acceptance-tests,2 Public Beta,closed,2017-04-24,2017-07-11
+239,maintain-frontend,2 Public Beta,closed,2017-04-19,2017-05-02
+238,account-management-frontend,2 Public Beta,closed,2017-04-19,2017-04-27
+237,account-management-frontend,2 Public Beta,closed,2017-04-19,2017-05-04
+236,account-management-frontend,2 Public Beta,closed,2017-04-18,2017-09-01
+235,account-management-frontend,2 Public Beta,closed,2017-04-18,2017-05-04
+234,maintain-frontend,2 Public Beta,closed,2017-04-18,2017-06-27
+232,maintain-frontend,2 Public Beta,closed,2017-04-18,2017-05-01
+230,maintain-frontend,2 Public Beta,closed,2017-04-18,2017-05-03
+228,maintain-frontend,2 Public Beta,opened,2017-04-18,
+227,maintain-frontend,2 Public Beta,closed,2017-04-18,2017-04-21
+226,maintain-frontend,2 Public Beta,closed,2017-04-18,2017-04-21
+225,maintain-frontend,2 Public Beta,closed,2017-04-18,2017-06-30
+224,account-management-frontend,2 Public Beta,closed,2017-04-18,2017-05-04
+215,login-frontend,2 Public Beta,opened,2017-04-10,
+212,acceptance-tests,2 Public Beta,closed,2017-04-07,2017-05-02
+240,maintain-frontend,2 Public Beta,closed,2017-04-07,2017-05-11
+211,acceptance-tests,2 Public Beta,closed,2017-04-07,2017-05-11
+242,maintain-frontend,2 Public Beta,closed,2017-04-07,2017-05-11
+241,login-frontend,2 Public Beta,closed,2017-04-07,2017-04-21
+209,acceptance-tests,2 Public Beta,closed,2017-04-07,2017-04-21
+205,search-api,2 Public Beta,closed,2017-04-06,2017-04-07
+190,maintain-frontend,2 Public Beta,closed,2017-03-29,2017-06-27
+180,maintain-frontend,2 Public Beta,closed,2017-03-27,2017-05-01
+259,account-management-frontend,2 Public Beta,closed,2017-03-27,2017-05-04
+176,maintain-frontend,2 Public Beta,closed,2017-03-23,2017-08-08
+175,acceptance-tests,2 Public Beta,closed,2017-03-23,2017-03-31
+164,maintain-frontend,2 Public Beta,closed,2017-03-17,2017-03-28
+148,maintain-frontend,2 Public Beta,closed,2017-03-13,2017-03-29
+147,maintain-frontend,2 Public Beta,closed,2017-03-13,2017-03-29
+146,maintain-frontend,2 Public Beta,closed,2017-03-13,2017-05-10
+143,maintain-frontend,2 Public Beta,closed,2017-03-13,2017-03-29
+142,maintain-frontend,2 Public Beta,closed,2017-03-13,2017-03-29
+139,maintain-frontend,2 Public Beta,closed,2017-03-10,2017-03-29
+136,maintain-frontend,2 Public Beta,closed,2017-03-08,2017-06-27
+115,maintain-frontend,2 Public Beta,closed,2017-02-21,2017-03-24
+113,maintain-frontend,2 Public Beta,closed,2017-02-13,2017-04-05
+107,maintain-frontend,2 Public Beta,closed,2017-02-09,2017-03-28
+700,maintain-frontend,3 Low,opened,2017-12-08,
+696,maintain-frontend,3 Low,opened,2017-11-30,
+596,maintain-frontend,3 Low,opened,2017-10-06,
+593,account-api,3 Low,opened,2017-10-05,
+579,maintain-frontend,3 Low,opened,2017-09-26,
+551,account-management-frontend,3 Low,closed,2017-09-12,2017-11-20
+544,account-management-frontend,3 Low,opened,2017-09-08,
+530,account-management-frontend,3 Low,opened,2017-09-01,
+527,login-frontend,3 Low,opened,2017-09-01,
+524,maintain-frontend,3 Low,opened,2017-08-31,
+498,maintain-frontend,3 Low,closed,2017-08-16,2017-08-18
+482,maintain-frontend,3 Low,closed,2017-08-14,2017-09-18
+477,account-management-frontend,3 Low,closed,2017-08-11,2017-09-21
+454,maintain-frontend,3 Low,opened,2017-07-31,
+450,maintain-frontend,3 Low,closed,2017-07-27,2017-11-20
+446,local-authority-api,3 Low,closed,2017-07-26,2017-08-07
+429,pdf-generation-api,3 Low,opened,2017-07-14,
+420,search-api,3 Low,opened,2017-07-12,
+419,maintain-api,3 Low,opened,2017-07-12,
+414,maintain-frontend,3 Low,opened,2017-07-10,
+407,acceptance-tests,3 Low,opened,2017-07-05,
+401,pdf-generation-api,3 Low,closed,2017-06-29,2017-11-20
+396,maintain-frontend,3 Low,closed,2017-06-27,2017-10-03
+395,maintain-frontend,3 Low,closed,2017-06-27,2017-10-03
+390,register,3 Low,closed,2017-06-22,2017-09-21
+383,acceptance-tests,3 Low,opened,2017-06-19,
+376,maintain-frontend,3 Low,opened,2017-06-13,
+371,account-management-frontend,3 Low,closed,2017-06-12,2017-08-08
+370,account-management-frontend,3 Low,closed,2017-06-12,2017-08-08
+369,maintain-frontend,3 Low,closed,2017-06-12,2017-08-08
+368,maintain-frontend,3 Low,closed,2017-06-12,2017-08-08
+367,maintain-frontend,3 Low,closed,2017-06-12,2017-09-05
+366,account-management-frontend,3 Low,closed,2017-06-12,2017-07-28
+365,maintain-frontend,3 Low,opened,2017-06-12,
+362,geoserver,3 Low,closed,2017-06-09,2017-08-08
+361,maintain-frontend,3 Low,closed,2017-06-08,2017-07-03
+359,acceptance-tests,3 Low,closed,2017-06-07,2017-08-09
+357,maintain-frontend,3 Low,closed,2017-06-05,2017-08-08
+353,register,3 Low,opened,2017-06-01,
+352,acceptance-tests,3 Low,closed,2017-06-01,2017-06-23
+349,dev-env-config,3 Low,opened,2017-05-26,
+346,acceptance-tests,3 Low,opened,2017-05-25,
+342,maintain-frontend,3 Low,opened,2017-05-24,
+339,account-management-frontend,3 Low,opened,2017-05-19,
+333,account-management-frontend,3 Low,closed,2017-05-17,2017-08-10
+322,maintain-frontend,3 Low,closed,2017-05-15,2017-08-08
+281,notification-api,3 Low,closed,2017-05-08,2017-06-06
+262,maintain-frontend,3 Low,closed,2017-05-03,2017-08-08
+260,account-api,3 Low,closed,2017-05-01,2017-11-20
+252,login-frontend,3 Low,closed,2017-04-26,2017-11-20
+251,login-frontend,3 Low,opened,2017-04-25,
+249,maintain-frontend,3 Low,closed,2017-04-24,2017-08-08
+245,maintain-frontend,3 Low,closed,2017-04-21,2017-08-08
+231,maintain-frontend,3 Low,closed,2017-04-18,2017-05-02
+223,maintain-frontend,3 Low,opened,2017-04-12,
+220,openresty-docker,3 Low,closed,2017-04-12,2017-05-23
+210,acceptance-tests,3 Low,closed,2017-04-07,2017-08-07
+208,acceptance-tests,3 Low,closed,2017-04-07,2017-06-30
+207,maintain-api,3 Low,opened,2017-04-06,
+206,search-api,3 Low,opened,2017-04-06,
+198,search-api,3 Low,opened,2017-04-03,
+196,acceptance-tests,3 Low,closed,2017-03-30,2017-04-04
+194,maintain-frontend,3 Low,closed,2017-03-30,2017-09-08
+191,acceptance-tests,3 Low,closed,2017-03-29,2017-05-15
+186,maintain-frontend,3 Low,closed,2017-03-27,2017-06-05
+182,maintain-frontend,3 Low,closed,2017-03-27,2017-03-27
+184,account-management-frontend,3 Low,closed,2017-03-27,2017-03-28
+181,maintain-frontend,3 Low,closed,2017-03-27,2017-06-27
+179,maintain-frontend,3 Low,closed,2017-03-27,2017-05-23
+173,maintain-frontend,3 Low,closed,2017-03-22,2017-04-05
+171,acceptance-tests,3 Low,closed,2017-03-22,2017-04-05
+169,acceptance-tests,3 Low,closed,2017-03-17,2017-04-07
+163,maintain-frontend,3 Low,closed,2017-03-17,2017-06-27
+151,acceptance-tests,3 Low,closed,2017-03-14,2017-04-07
+149,maintain-api,3 Low,opened,2017-03-13,
+133,account-api,3 Low,closed,2017-03-03,2017-05-23
+716,maintain-frontend,4 Awaiting priority,opened,2018-01-03,
+715,maintain-frontend,4 Awaiting priority,opened,2018-01-03,
+714,maintain-frontend,4 Awaiting priority,opened,2018-01-02,
+713,local-land-charges-api,4 Awaiting priority,opened,2017-12-18,
+712,search-local-land-charge-ui,4 Awaiting priority,opened,2017-12-18,
+711,maintain-frontend,4 Awaiting priority,opened,2017-12-18,
+633,maintain-frontend,4 Awaiting priority,opened,2017-11-03,
+627,maintain-frontend,4 Awaiting priority,closed,2017-10-27,2017-11-17
+538,maintain-frontend,4 Awaiting priority,closed,2017-09-06,2017-11-08
+536,account-management-frontend,4 Awaiting priority,closed,2017-09-05,2017-09-11
+534,account-management-frontend,4 Awaiting priority,closed,2017-09-04,2017-09-11
+533,account-management-frontend,4 Awaiting priority,closed,2017-09-04,2017-09-11
+531,account-management-frontend,4 Awaiting priority,closed,2017-09-01,2017-09-11
+529,account-management-frontend,4 Awaiting priority,closed,2017-09-01,2017-09-25
+517,maintain-frontend,4 Awaiting priority,opened,2017-08-28,
+473,login-frontend,4 Awaiting priority,closed,2017-08-10,2017-08-15
+467,pdf-generation-api,4 Awaiting priority,closed,2017-08-08,2017-08-15
+443,maintain-frontend,4 Awaiting priority,closed,2017-07-25,2017-11-10
+442,maintain-frontend,4 Awaiting priority,closed,2017-07-24,2017-11-14
+114,maintain-frontend,4 Awaiting priority,opened,2017-02-21,
+710,maintain-frontend,No Label,closed,2017-12-15,2017-12-18
+695,maintain-frontend,No Label,closed,2017-11-29,2017-12-01
+646,maintain-frontend,No Label,closed,2017-11-08,2017-11-08
+619,maintain-frontend,No Label,closed,2017-10-24,2017-10-25
+598,maintain-frontend,No Label,closed,2017-10-11,2017-10-11
+567,maintain-frontend,No Label,closed,2017-09-22,2017-09-29
+560,search-local-land-charge-ui,No Label,closed,2017-09-20,2017-09-20
+559,maintain-frontend,No Label,closed,2017-09-19,2017-09-19
+558,maintain-feeder,No Label,closed,2017-09-19,2017-09-19
+548,maintain-frontend,No Label,closed,2017-09-11,2017-09-25
+542,maintain-frontend,No Label,closed,2017-09-06,2017-09-22
+541,account-management-frontend,No Label,closed,2017-09-06,2017-09-22
+512,acceptance-tests,No Label,closed,2017-08-25,2018-01-04
+507,maintain-frontend,No Label,closed,2017-08-25,2017-11-08
+462,report-feeder,No Label,closed,2017-08-07,2017-08-07
+456,maintain-frontend,No Label,closed,2017-08-01,2017-08-09
+452,maintain-frontend,No Label,closed,2017-07-28,2017-08-04
+441,maintain-frontend,No Label,closed,2017-07-24,2017-08-02
+439,maintain-frontend,No Label,closed,2017-07-21,2017-07-24
+437,acceptance-tests,No Label,closed,2017-07-20,2017-09-26
+432,acceptance-tests,No Label,closed,2017-07-19,2018-01-04
+427,acceptance-tests,No Label,closed,2017-07-13,2018-01-04
+426,maintain-frontend,No Label,closed,2017-07-13,2017-07-17
+425,login-frontend,No Label,closed,2017-07-13,2017-07-17
+424,account-management-frontend,No Label,closed,2017-07-13,2017-08-08
+423,maintain-frontend,No Label,closed,2017-07-12,2017-07-14
+416,acceptance-tests,No Label,closed,2017-07-11,2017-08-08
+415,maintain-frontend,No Label,closed,2017-07-11,2017-07-14
+411,acceptance-tests,No Label,closed,2017-07-06,2017-07-11
+405,acceptance-tests,No Label,closed,2017-07-03,2017-07-18
+404,acceptance-tests,No Label,closed,2017-07-03,2017-07-18
+389,acceptance-tests,No Label,closed,2017-06-22,2017-10-06
+372,account-management-frontend,No Label,closed,2017-06-12,2017-06-23
+358,maintain-frontend,No Label,closed,2017-06-06,2017-06-07
+355,maintain-frontend,No Label,closed,2017-06-02,2017-06-12
+351,acceptance-tests,No Label,closed,2017-05-29,2017-09-26
+350,register,No Label,closed,2017-05-26,2017-06-01
+347,acceptance-tests,No Label,closed,2017-05-25,2017-08-08
+345,acceptance-tests,No Label,closed,2017-05-25,2017-07-06
+344,acceptance-tests,No Label,closed,2017-05-25,2017-09-26
+343,maintain-frontend,No Label,closed,2017-05-24,2017-05-25
+340,maintain-frontend,No Label,closed,2017-05-22,2017-05-22
+324,maintain-frontend,No Label,closed,2017-05-16,2017-08-08
+307,account-management-frontend,No Label,closed,2017-05-11,2017-05-12
+293,acceptance-tests,No Label,closed,2017-05-10,2017-05-15
+282,acceptance-tests,No Label,closed,2017-05-08,2017-05-10
+280,acceptance-tests,No Label,closed,2017-05-08,2017-05-08
+273,search-api,No Label,closed,2017-05-05,2017-05-10
+263,maintain-frontend,No Label,closed,2017-05-03,2017-05-23
+255,maintain-frontend,No Label,closed,2017-04-27,2017-08-07
+246,acceptance-tests,No Label,closed,2017-04-21,2017-04-28
+244,acceptance-tests,No Label,closed,2017-04-20,2017-04-28
+243,dev-env-config,No Label,closed,2017-04-20,2017-06-27
+219,maintain-frontend,No Label,closed,2017-04-12,2017-04-20
+218,maintain-frontend,No Label,closed,2017-04-11,2017-04-19
+214,login-frontend,No Label,closed,2017-04-10,2017-04-18
+204,maintain-frontend,No Label,closed,2017-04-05,2017-04-06
+203,maintain-frontend,No Label,closed,2017-04-05,2017-04-06
+202,maintain-frontend,No Label,closed,2017-04-05,2017-08-09
+201,maintain-frontend,No Label,closed,2017-04-05,2017-04-12
+187,account-management-frontend,No Label,closed,2017-03-28,2017-03-29
+183,account-management-frontend,No Label,closed,2017-03-27,2017-03-30
+174,account-api,No Label,closed,2017-03-22,2017-03-30
+172,maintain-frontend,No Label,closed,2017-03-22,2017-03-24
+153,maintain-frontend,No Label,closed,2017-03-14,2017-03-17
+152,maintain-frontend,No Label,closed,2017-03-14,2017-03-17
+144,search-api,No Label,closed,2017-03-13,2017-03-13
+145,maintain-frontend,No Label,closed,2017-03-13,2017-03-14
+141,validation-api,No Label,closed,2017-03-13,2017-03-16
+138,maintain-frontend,No Label,closed,2017-03-09,2017-03-14
+135,search-api,No Label,closed,2017-03-07,2017-03-09
+134,search-api,No Label,closed,2017-03-07,2017-03-09
+132,account-api,No Label,closed,2017-03-03,2017-03-07
+126,search-api,No Label,closed,2017-02-27,2017-03-08
+125,account-management-frontend,No Label,closed,2017-02-27,2017-03-03
+124,account-management-frontend,No Label,closed,2017-02-27,2017-03-03
+122,search-api,No Label,closed,2017-02-27,2017-02-28
+121,maintain-frontend,No Label,closed,2017-02-27,2017-02-28
+119,account-management-frontend,No Label,closed,2017-02-27,2017-03-17
+117,maintain-frontend,No Label,closed,2017-02-21,2017-02-23
+112,maintain-frontend,No Label,closed,2017-02-13,2017-03-17
+109,search-api,No Label,closed,2017-02-09,2017-02-23
+108,maintain-frontend,No Label,closed,2017-02-09,2017-02-21
+104,account-api,No Label,closed,2017-02-08,2017-02-10

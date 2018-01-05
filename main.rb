@@ -8,8 +8,10 @@ class Main
   @private_token='eEssGaZRwHvBbonfzQkb'
   @states=['opened', 'closed']
   @labels=['1 Private Beta', '2 Public Beta', '3 Low', '4 Awaiting priority', 'No Label']
+  @projects = Hash.new
 
   def self.get_method(uri)
+    #get call to the speified uri, using the private token in the header
     url = URI(uri)
     http = Net::HTTP.new(url.host, url.port)
 
@@ -19,93 +21,64 @@ class Main
     http.request(request)
   end
 
-  def self.get_open_close_rate
-    create_file("open_close_rate")
-    write_file("open_close_rate","event,date,project_id")
+  def self.get_defect_data
+    #create a results file
+    create_file("data")
+    #write heading lines
+    header="id,project,label,state,created_at,closed_on"
+    write_file("data", header)
 
     issues = "/issues?per_page=100&page="
     sort = "&sort=asc"
 
-    for i in 1..5
-      response = get_method(@git_lab_url+@git_lab_group+issues+i.to_s+sort)
-      res = JSON.parse(response.body)
-      res.each do |line|
-        state = line['state']
-        created_at = line['created_at']
-        project_id = line['project_id'].to_s
-
-        write_file("open_close_rate","opened,"+created_at[0...10]+","+project_id)
-
-        if state == "closed"
-          updated_on = line['updated_at']
-          write_file("open_close_rate","closed,"+updated_on[0...10]+","+project_id)
+    #5 is the hardcoded number of pages... we could make this more dynamic
+    @labels.each do |label|
+      for i in 1..5
+        #get the pages of results, and write out their created on date
+        label.gsub! ' ', '%20'
+        response = get_method(@git_lab_url+@git_lab_group+issues+i.to_s+"&labels="+label)
+        res = JSON.parse(response.body)
+        res.each do |line|
+          id = line['id'].to_s
+          p_id = line['project_id']
+          p_name = @projects[p_id].to_s
+          state = line['state'].to_s
+          created_at = line['created_at'].to_s
+          if state == "closed"
+            closed_on = line['updated_at'].to_s
+          else
+            closed_on = ''
+          end
+          label.gsub! '%20', ' '
+          #[0...10] truncates the string to be just the date
+          str = id+","+p_name+","+label+","+state+","+created_at[0...10]+","+closed_on[0...10]
+          write_file("data", str)
         end
       end
     end
 
   end
 
-  def self.get_issue_by_state
-    @states.each do |state|
-      response = get_method(@git_lab_url + @git_lab_group + "/issues?state="+state)
-      puts state + " issues: " + response['x-total']
-    end
-  end
-
-  def self.get_group_open_issues_by_label
-    create_file("group_open_issues_by_label")
-    write_file("group_open_issues_by_label","label,open defects")
-
-    @labels.each do |label|
-      label.gsub! ' ', '%20'
-      uri = @git_lab_url + @git_lab_group + "/issues?state=opened&labels="+label
-      response = get_method(uri)
-
-      if response
-        label.gsub! '%20', ' '
-        str = label + "," + response['x-total']
-        write_file("group_open_issues_by_label",str)
-      end
-    end
-
-  end
-
-  def self.get_project_defects
-    create_file("project_defects")
-    response = get_method(@git_lab_url + @git_lab_group).body
-    proj = JSON.parse(response)['projects']
-
-    write_file("project_defects", "label,project,open,closed")
-
-    @labels.each do |label|
-      proj.each do |p|
-        label.gsub! ' ', '%20'
-
-        open_uri = @git_lab_url + "/projects/"+p['id'].to_s+"/issues?state=opened&labels="+label
-        open_response = get_method(open_uri)
-
-        closed_uri = @git_lab_url + "/projects/"+p['id'].to_s+"/issues?state=closed&labels="+label
-        closed_response = get_method(closed_uri)
-
-        label.gsub! '%20', ' '
-        str = label + "," + p['name'].to_s+"," + open_response['x-total'] + "," + closed_response['x-total']
-
-        write_file("project_defects", str)
-
-      end
-    end
-  end
-
   def self.create_file(name)
-    File.open("results/"+name+".txt","w+")
+    File.open("results/"+name+".txt", "w+")
   end
 
-  def self.write_file(name,value)
-    File.open("results/"+name+".txt", "a+") do |line |
+  def self.write_file(name, value)
+    File.open("results/"+name+".txt", "a+") do |line|
       line.puts value
     end
   end
 
-  get_project_defects
-  get_open_close_rate
+  def self.get_project_names
+    response = get_method(@git_lab_url + @git_lab_group).body
+    proj = JSON.parse(response)['projects']
+
+    proj.each do |p|
+      @projects[p['id']] = p['name']
+    end
+  end
+
+  get_project_names
+  get_defect_data
+
 end

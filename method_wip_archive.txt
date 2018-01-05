@@ -1,0 +1,57 @@
+ef self.get_issue_by_state
+    @states.each do |state|
+      response = get_method(@git_lab_url + @git_lab_group + "/issues?state="+state)
+      puts state + " issues: " + response['x-total']
+    end
+  end
+
+  def self.get_group_open_issues_by_label
+    create_file("group_open_issues_by_label")
+    write_file("group_open_issues_by_label","label,open defects")
+
+    @labels.each do |label|
+      label.gsub! ' ', '%20'
+      uri = @git_lab_url + @git_lab_group + "/issues?state=opened&labels="+label
+      response = get_method(uri)
+
+      if response
+        label.gsub! '%20', ' '
+        str = label + "," + response['x-total']
+        write_file("group_open_issues_by_label",str)
+      end
+    end
+
+  end
+=end
+
+  def self.get_project_defects
+    #create the file to write to
+    create_file("project_defects")
+    write_file("project_defects", "label,project,open,closed")
+
+    #build a hash of all the projects in the group
+    response = get_method(@git_lab_url + @git_lab_group).body
+    proj = JSON.parse(response)['projects']
+
+
+    @labels.each do |label|
+      #loop through each label in the @labels array, by project
+      #could definitely refactor this to be faster,... but it works at the moment
+      proj.each do |p|
+
+        label.gsub! ' ', '%20'
+
+        open_uri = @git_lab_url + "/projects/"+p['id'].to_s+"/issues?state=opened&labels="+label
+        open_response = get_method(open_uri)
+
+        closed_uri = @git_lab_url + "/projects/"+p['id'].to_s+"/issues?state=closed&labels="+label
+        closed_response = get_method(closed_uri)
+
+        label.gsub! '%20', ' '
+        str = label + "," + p['name'].to_s+"," + open_response['x-total'] + "," + closed_response['x-total']
+
+        write_file("project_defects", str)
+
+      end
+    end
+  end
