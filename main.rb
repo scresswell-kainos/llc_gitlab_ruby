@@ -7,7 +7,7 @@ class Main
   @git_lab_group='/groups/150'
   @private_token='eEssGaZRwHvBbonfzQkb'
   @states=['opened', 'closed']
-  @labels=['1 Private Beta', '2 Public Beta', '3 Low', '4 Awaiting priority', 'No Label']
+  @labels=['0 Urgent','1 High', '2 Medium', '3 Low', '4 Awaiting priority', 'No Label']
   @projects = Hash.new
 
   def self.get_method(uri)
