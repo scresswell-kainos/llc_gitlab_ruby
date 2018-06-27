@@ -29,7 +29,6 @@ class Main
     write_file("data", header)
 
     issues = "/issues?per_page=100&page="
-    sort = "&sort=asc"
 
     #5 is the hardcoded number of pages... we could make this more dynamic
     @labels.each do |label|
@@ -59,6 +58,40 @@ class Main
 
   end
 
+  def self.get_accessibility_defects
+    label = 'Accessibility'
+    #create a results file
+    create_file("accessibility")
+    #write heading lines
+    header="id,project,label,state,created_at,closed_on"
+    write_file("accessibility", header)
+
+    issues = "/issues?per_page=100&page="
+
+    #5 is the hardcoded number of pages... we could make this more dynamic
+      for i in 1..5
+        #get the pages of results, and write out their created on date
+        response = get_method(@git_lab_url+@git_lab_group+issues+i.to_s+"&labels="+label)
+        res = JSON.parse(response.body)
+        res.each do |line|
+          id = line['id'].to_s
+          p_id = line['project_id']
+          p_name = @projects[p_id].to_s
+          state = line['state'].to_s
+          created_at = line['created_at'].to_s
+          if state == "closed"
+            closed_on = line['updated_at'].to_s
+          else
+            closed_on = ''
+          end
+          label.gsub! '%20', ' '
+          #[0...10] truncates the string to be just the date
+          str = id+","+p_name+","+label+","+state+","+created_at[0...10]+","+closed_on[0...10]
+          write_file("accessibility", str)
+        end
+      end
+  end
+
   def self.create_file(name)
     File.open("results/"+name+".txt", "w+")
   end
@@ -78,7 +111,14 @@ class Main
     end
   end
 
+  def self.get_count_of_scenarios
+    result = `grep -R "^[^#]*Scenario" ../../llc/beta/dev-env/apps/acceptance-tests/ | wc -l`
+    puts "Acceptance Test Scenarios: " + result
+  end
+
   get_project_names
   get_defect_data
+  get_accessibility_defects
+  # get_count_of_scenarios
 
 end
