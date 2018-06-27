@@ -2,7 +2,6 @@
 ### Ruby template
 *.gem
 *.rbc
-*.idea
 /.config
 /coverage/
 /InstalledFiles
